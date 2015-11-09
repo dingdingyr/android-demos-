@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidWidget</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_count_down_text_view">CountDownTextViewActivity</string>
+    <string name="title_activity_show_cdtv_usage">ShowCdtvUsageActivity</string>
+    <string name="title_activity_using_cdtv_in_list">UsingCdtvInListActivity</string>
+    <string name="title_activity_origin_view">OriginView</string>
+    <string name="title_activity_custom_view">CustomViewActivity</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="title_activity_on_touch_listener">OnTouchListenerActivity</string>
+
+</resources>

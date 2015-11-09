@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.wehax.demo" >
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cn.wehax.demo.main.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.wehax.demo.widget.count_down_text_view.CountDownTextViewActivity" />
+        <activity android:name="cn.wehax.demo.widget.count_down_text_view.ShowCdtvUsageActivity" />
+        <activity android:name="cn.wehax.demo.widget.count_down_text_view.UseCdtvInListActivity" />
+        <activity android:name="cn.wehax.demo.widget.count_down_text_view.TestCdtvOnHomeActivity" />
+        <activity android:name="cn.wehax.demo.main.OriginViewActivity" />
+        <activity android:name="cn.wehax.demo.main.CustomViewActivity" />
+        <activity
+            android:name="cn.wehax.demo.widget.view.ViewActivity"
+            android:label="@string/title_activity_view" >
+        </activity>
+        <activity
+            android:name="cn.wehax.demo.widget.view.OnTouchListenerActivity"
+            android:label="@string/title_activity_on_touch_listener" >
+        </activity>
+
+        <activity android:name="cn.wehax.demo.widget.view.OnClickListenerActivity"/>
+
+    </application>
+
+</manifest>
