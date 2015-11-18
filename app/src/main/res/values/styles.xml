@@ -5,4 +5,36 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="TextAppearance"></style>
+
+    <style name="TextAppearance.Title">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="TextAppearance.Tab">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="Framework"></style>
+
+    <style name="Framework.GroupTitle" parent="TextAppearance.Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#ebebeb</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="Framework.GroupTab" parent="TextAppearance.Tab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#ebebeb</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
 </resources>

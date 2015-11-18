@@ -2,12 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.wehax.demo" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="cn.wehax.demo.main.MainActivity"
+            android:name=".main.MainActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -15,23 +18,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="cn.wehax.demo.widget.count_down_text_view.CountDownTextViewActivity" />
-        <activity android:name="cn.wehax.demo.widget.count_down_text_view.ShowCdtvUsageActivity" />
-        <activity android:name="cn.wehax.demo.widget.count_down_text_view.UseCdtvInListActivity" />
-        <activity android:name="cn.wehax.demo.widget.count_down_text_view.TestCdtvOnHomeActivity" />
-        <activity android:name="cn.wehax.demo.main.OriginViewActivity" />
-        <activity android:name="cn.wehax.demo.main.CustomViewActivity" />
+        <activity android:name=".widget.count_down_text_view.CountDownTextViewActivity" />
+        <activity android:name=".widget.count_down_text_view.ShowCdtvUsageActivity" />
+        <activity android:name=".widget.count_down_text_view.UseCdtvInListActivity" />
+        <activity android:name=".widget.count_down_text_view.TestCdtvOnHomeActivity" />
+        <activity android:name=".main.OriginViewActivity" />
+        <activity android:name=".main.CustomViewActivity" />
         <activity
-            android:name="cn.wehax.demo.widget.view.ViewActivity"
+            android:name=".widget.view.ViewActivity"
             android:label="@string/title_activity_view" >
         </activity>
         <activity
-            android:name="cn.wehax.demo.widget.view.OnTouchListenerActivity"
+            android:name=".widget.view.OnTouchListenerActivity"
             android:label="@string/title_activity_on_touch_listener" >
         </activity>
-
-        <activity android:name="cn.wehax.demo.widget.view.OnClickListenerActivity"/>
-
+        <activity android:name=".widget.view.OnClickListenerActivity" />
+        <activity
+            android:name=".function.screen_shot.ScreenShotActivity"
+            android:label="@string/title_activity_screen_shot" >
+        </activity>
     </application>
 
 </manifest>

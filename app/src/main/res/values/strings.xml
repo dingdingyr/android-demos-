@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">AndroidWidget</string>
+    <string name="app_name">AndroidDemos</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -12,5 +12,6 @@
     <string name="title_activity_custom_view">CustomViewActivity</string>
     <string name="title_activity_view">ViewActivity</string>
     <string name="title_activity_on_touch_listener">OnTouchListenerActivity</string>
+    <string name="title_activity_screen_shot">ScreenShotActivity</string>
 
 </resources>
