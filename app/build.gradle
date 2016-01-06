@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
+
     defaultConfig {
         applicationId 'cn.wehax.demo'
         minSdkVersion 14
@@ -32,4 +33,7 @@ dependencies {
     provided 'org.roboguice:roboblender:3.0.1'
     // 外部第三方库
     compile project(':common-library:library')
+
+    //recyclerview
+    compile 'com.android.support:recyclerview-v7:22.0.0'
 }

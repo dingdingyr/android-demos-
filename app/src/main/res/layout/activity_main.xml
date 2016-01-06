@@ -1,44 +1,14 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    tools:context="cn.wehax.demo.ui.widget.Main2Activity">
 
-    <LinearLayout
+    <android.support.v4.view.PagerTabStrip
+        android:id="@+id/pagertab"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
 
-        <Button
-            android:id="@+id/tab_origin_view_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:text="原生控件" />
-
-        <Button
-            android:id="@+id/tab_custom_view_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:text="自定义控件" />
-
-        <TextView
-            android:id="@+id/textView"
-            style="@style/Framework.GroupTitle"
-            android:layout_marginTop="10dp"
-            android:text="功能" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/tab_screen_shot"
-                style="@style/Framework.GroupTab"
-                android:text="截图" />
-        </RelativeLayout>
-
-    </LinearLayout>
-
-</ScrollView>
+</android.support.v4.view.ViewPager>

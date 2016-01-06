@@ -10,32 +10,46 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".main.MainActivity"
-            android:label="@string/title_activity_main" >
+            android:name=".ui.main.MainActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".widget.count_down_text_view.CountDownTextViewActivity" />
-        <activity android:name=".widget.count_down_text_view.ShowCdtvUsageActivity" />
-        <activity android:name=".widget.count_down_text_view.UseCdtvInListActivity" />
-        <activity android:name=".widget.count_down_text_view.TestCdtvOnHomeActivity" />
-        <activity android:name=".main.OriginViewActivity" />
-        <activity android:name=".main.CustomViewActivity" />
+        <activity android:name=".ui.widget.count_down_text_view.CountDownTextViewActivity" />
+        <activity android:name=".ui.widget.count_down_text_view.ShowCdtvUsageActivity" />
+        <activity android:name=".ui.widget.count_down_text_view.UseCdtvInListActivity" />
+        <activity android:name=".ui.widget.count_down_text_view.TestCdtvOnHomeActivity" />
         <activity
-            android:name=".widget.view.ViewActivity"
+            android:name=".ui.widget.view.ViewActivity"
             android:label="@string/title_activity_view" >
         </activity>
         <activity
-            android:name=".widget.view.OnTouchListenerActivity"
+            android:name=".ui.widget.view.OnTouchListenerActivity"
             android:label="@string/title_activity_on_touch_listener" >
         </activity>
-        <activity android:name=".widget.view.OnClickListenerActivity" />
+        <activity android:name=".ui.widget.view.OnClickListenerActivity" />
         <activity
-            android:name=".function.screen_shot.ScreenShotActivity"
+            android:name=".ui.function.screen_shot.ScreenShotActivity"
             android:label="@string/title_activity_screen_shot" >
+        </activity>
+        <activity
+            android:name=".ui.widget.recycler_view.RecyclerViewActivity"
+            android:label="@string/title_activity_recycler_view" >
+        </activity>
+        <activity
+            android:name=".ui.widget.recycler_view.normal.NormalRecyclerViewActivity"
+            android:label="@string/title_activity_normal_recycler_view" >
+        </activity>
+        <activity
+            android:name=".ui.widget.recycler_view.header_footer.HeaderFooterActivity"
+            android:label="@string/title_activity_header_recycler_view" >
+        </activity>
+        <activity
+            android:name=".ui.widget.recycler_view.pj_sense.SenseRecyclerViewActivity"
+            android:label="@string/title_activity_header_recycler_view" >
         </activity>
     </application>
 

@@ -7,7 +7,7 @@
               android:paddingLeft="@dimen/activity_horizontal_margin"
               android:paddingRight="@dimen/activity_horizontal_margin"
               android:paddingTop="@dimen/activity_vertical_margin"
-              tools:context="cn.wehax.demo.widget.count_down_text_view.UseCdtvInListActivity">
+              tools:context="cn.wehax.demo.ui.widget.count_down_text_view.UseCdtvInListActivity">
 
     <cn.wehax.common.widget.CountDownTextView
         android:id="@+id/count_down_text_view"
